@@ -13897,6 +13897,20 @@ var app = new Vue({
   el: '#app'
 });
 
+(function ($) {
+  $(document).ready(function () {
+    $('#cssmenu').prepend('<div id="menu-button">Menu</div>');
+    $('#cssmenu #menu-button').on('click', function () {
+      var menu = $(this).next('ul');
+      if (menu.hasClass('open')) {
+        menu.removeClass('open');
+      } else {
+        menu.addClass('open');
+      }
+    });
+  });
+})(jQuery);
+
 /***/ }),
 /* 13 */
 /***/ (function(module, exports, __webpack_require__) {
