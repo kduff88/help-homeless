@@ -36,43 +36,45 @@
                 <div class="main-menu-secs col-md-8 offset-md-2">
                   <div class="row text-centre">
                     <div class="col-md-4 text-subhead-red">
-                      <span class="glyphicon glyphicon-info-sign"></span><p><h4>About Us</h4></p>
+                      <span class="fas fa-info-circle"></span><p><h4>About Us</h4></p>
                       <div class="text-normal"><p>About us here...</p></div>
                       <p><a href="#" class="main-menu-button-red">Find Out More</a></p>
                     </div>
                     <div class="col-md-4 text-subhead-blue">
-                      <span class="glyphicon glyphicon-gift"></span><p><h4>Donate</h4></p>
+                      <span class="fas fa-gift"></span><p><h4>Donate</h4></p>
                       <div class="text-normal"><p>Donate to us us here...</p></div>
                       <p><a href="#" class="main-menu-button-blue">Find Out More</a></p>
                     </div>
                     <div class="col-md-4 text-subhead-green">
-                      <span class="glyphicon glyphicon-globe"></span><p><h4>Get Involved</h4></p></h4>
+                      <span class="fas fa-globe-africa"></span><p><h4>Get Involved</h4></p></h4>
                       <div class="text-normal"><p>Get involved with us here...</p></div>
                       <p><a href="#" class="main-menu-button-green">Find Out More</a></p>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-8 offset-md-2">
-                  <div class="col-md-3">
-                      <span class="glyphicon glyphicon-info-sign"></span><p><h4>About Us</h4></p>
+                <div class="col-md-8 offset-md-2 text-centre">
+                  <div class="row">
+                    <div class="col-md-3 text-subhead-yellow">
+                      <span class="fas fa-users"></span><p><h4>Volunteer & Vacancies</h4></p>
                       <div class="text-normal"><p>About us here...</p></div>
-                      <p><a href="#" class="main-menu-button-red">Find Out More</a></p>
+                      <p><a href="#" class="main-menu-button-yellow">Find Out More</a></p>
                     </div>
-                    <div class="col-md-3">
-                      <span class="glyphicon glyphicon-gift"></span><p><h4>Donate</h4></p>
+                    <div class="col-md-3 text-subhead-orange">
+                      <span class="fas fa-donate"></span><p><h4>Fundrasing</h4></p>
                       <div class="text-normal"><p>Donate to us us here...</p></div>
-                      <p><a href="#" class="main-menu-button-blue">Find Out More</a></p>
+                      <p><a href="#" class="main-menu-button-orange">Find Out More</a></p>
                     </div>
-                    <div class="col-md-3">
-                      <span class="glyphicon glyphicon-globe"></span><p><h4>Get Involved</h4></p></h4>
+                    <div class="col-md-3 text-subhead-dark-blue">
+                      <span class="fas fa-home"></span><p><h4>Accomodation</h4></p></h4>
                       <div class="text-normal"><p>Get involved with us here...</p></div>
-                      <p><a href="#" class="main-menu-button-green">Find Out More</a></p>
+                      <p><a href="#" class="main-menu-button-dark-blue">Find Out More</a></p>
                     </div>
-                    <div class="col-md-3">
-                      <span class="glyphicon glyphicon-globe"></span><p><h4>Get Involved</h4></p></h4>
+                    <div class="col-md-3 text-subhead-purple">
+                      <span class="fas fa-hands-helping"></span><p><h4>Partnerships</h4></p></h4>
                       <div class="text-normal"><p>Get involved with us here...</p></div>
-                      <p><a href="#" class="main-menu-button-green">Find Out More</a></p>
+                      <p><a href="#" class="main-menu-button-purple">Find Out More</a></p>
                     </div>
+                  </div>
                 </div>
               </div>
             </div>

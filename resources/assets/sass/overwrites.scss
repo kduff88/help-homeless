@@ -38,13 +38,13 @@ html, body {
 #cssmenu {
   width: auto;
   font-family: 'Open Sans', Helvetica, sans-serif;
-  background: #39b1cc;
-  background: -moz-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+  background: $site-color-light;
+  background: -moz-linear-gradient(top, $site-color-light 0%, $site-color-dark 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #51bbd2), color-stop(100%, #2d97af));
-  background: -webkit-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
-  background: -o-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
-  background: -ms-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
-  background: linear-gradient(to bottom, #51bbd2 0%, #2d97af 100%);
+  background: -webkit-linear-gradient(top, $site-color-light 0%, $site-color-dark 100%);
+  background: -o-linear-gradient(top, $site-color-light 0%, $site-color-dark 100%);
+  background: -ms-linear-gradient(top, $site-color-light 0%, $site-color-dark 100%);
+  background: linear-gradient(to bottom, $site-color-light 0%, $site-color-dark 100%);
 }
 #cssmenu > ul {
   box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.05);
@@ -402,6 +402,10 @@ html, body {
     border-radius: 30px;
   }
 
+  .text-subhead-red:hover {
+    transform: scale(1.2) perspective(1px);
+  }
+
   //Blue section of front page
   .text-subhead-blue {
     padding-top: 50px;
@@ -422,6 +426,10 @@ html, body {
     font-size: 12px;
     margin: 4px 2px;
     border-radius: 30px;
+  }
+
+  .text-subhead-blue:hover {
+    transform: scale(1.2) perspective(1px);
   }
 
   //Green section of front page
@@ -446,9 +454,123 @@ html, body {
     border-radius: 30px;
   }
 
+  .text-subhead-green:hover {
+    transform: scale(1.2) perspective(1px);
+  }
+
+//Yellow section of front page
+  .text-subhead-yellow {
+    padding-top: 50px;
+    color: $yellow-sec;
+    font-weight: bold;
+  }
+
+  .main-menu-button-yellow {
+    border: solid 2px $yellow-sec;
+    color: $font-normal-color;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 30px;
+  }
+
+  .text-subhead-yellow:hover {
+    transform: scale(1.2) perspective(1px);
+  }
+
+  //Orange section of front page
+  .text-subhead-orange {
+    padding-top: 50px;
+    color: $orange-sec;
+    font-weight: bold;
+    padding-bottom: 50px;
+  }
+
+  .main-menu-button-orange {
+    border: solid 2px $orange-sec;
+    color: $font-normal-color;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 30px;
+  }
+
+  .text-subhead-orange:hover {
+    transform: scale(1.2) perspective(1px);
+  }
+
+  //Dark blue section of front page
+  .text-subhead-dark-blue {
+    padding-top: 50px;
+    color: $dark-blue-sec;
+    font-weight: bold;
+    padding-bottom: 50px;
+  }
+
+  .main-menu-button-dark-blue {
+    border: solid 2px $dark-blue-sec;
+    color: $font-normal-color;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 30px;
+  }
+
+  .text-subhead-dark-blue:hover {
+    transform: scale(1.2) perspective(1px);
+  }
+
+  //Purple section of front page
+  .text-subhead-purple {
+    padding-top: 50px;
+    color: $purple-sec;
+    font-weight: bold;
+    padding-bottom: 50px;
+  }
+
+  .main-menu-button-purple {
+    border: solid 2px $purple-sec;
+    color: $font-normal-color;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 30px;
+  }
+
+  .text-subhead-purple:hover {
+    transform: scale(1.2) perspective(1px);
+  }
+
   .text-normal {
     color: $font-normal-color;
     font-weight: normal;
   }
 
+  // Footer
+  .footer {
+    background-color: $footer-color;
+    color: $footer-font-color;
+    height: 300px;
+    padding: 25px;
+  }
+
+  .footer-address {
+    padding-left: 210px;
+  }
   
