@@ -1,6 +1,6 @@
 <div class="col footer">
 	<div class="row">
-		<div class="col-md-3">© Copyright 2018 Help the Homeless.</div>
+		<div class="col-md-3"><div class="footer-copy">© Copyright 2018 Help the Homeless.</div></div>
 		<div class="col-md-3">&nbsp;</div>
 		<div class="col-md-3">&nbsp;</div>
 		<div class="col-md-3 footer-address">Contact Us: <br />

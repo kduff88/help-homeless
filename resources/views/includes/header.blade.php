@@ -1,34 +1,46 @@
-<div class="col-md-8 offset-md-2">
-    <img class='fb-img' src='images/upFb.png' alt='Facebook' />
-</div>
- <div class="title m-b-md col-md-6">
-    Help The Homeless
+ <div class=" logo col-md-8 offset-md-2">
+    <a href="{{ url('/') }}"><img src="images/Hand-Logo-Green-trans.png" alt="help the herts homeless" /></a>
+    <a href="https://www.facebook.com/nhsanctuary/" target="_blank"><img class='fb-img' src='images/upFb.png' alt='Facebook' /></a>
 </div>
 <div class="col-md-8 offset-md-2">
   	<div id='cssmenu'>
       	<ul>
-         	<li><a href='#'><span>About Us</span></a></li>
-         	<li class='active has-sub'><a href='#'><span>Get Involved</span></a>
+      		<li><a href="{{ url('/') }}"><span>Home</span></a></li>
+         	<li class='has-sub'><a href="{{ url('about-us') }}"><span>About Us</span></a>
+         		<ul>
+         			<li><a href="{{ url('about-us') }}"><span>Vision & Mission</span></a></li>
+         			<!--<li><a href='#'><span>History</span></a></li>-->
+         			<li><a href="{{ url('privacy-policy') }}"><span>Privacy Policy</span></a></li>
+         			<li><a href="{{ url('our-team') }}"><span>Our Team</span></a></li>
+         			<!--<li><a href='#'><span>Media / PR</span></a></li>-->
+         		</ul>
+         	</li>
+         	<li class='has-sub'><a href='#'><span>Get Involved</span></a>
             <ul>
-               <li class='has-sub'><a href='#'><span>Accomodation</span></a>
-                  <ul>
+               <li class='has-sub'><a href="{{ url('volunteer') }}"><span>Volunteer</span></a>
+                  <!--<ul>
                      <li><a href='#'><span>After Housing</span></a></li>
-                     <li class='last'><a href='#'><span>Sanctuary</span></a></li>
-                  </ul>
-               </li>
-               <li class='has-sub'><a href='#'><span>Working Together</span></a>
-                  <ul>
+                     <li><a href='#'><span>Sanctuary</span></a></li>
                      <li><a href='#'><span>Sponsors</span></a></li>
                      <li class='last'><a href='#'><span>Other Charities</span></a></li>
-                  </ul>
+                  </ul>-->
                </li>
+               <li ><a href="{{ url('donating') }}"><span>Donate</span></a></li>
+               <li ><a href="{{ url('fundraising') }}"><span>Fundraising</span></a></li>
+               <li ><a href="{{ url('who-we-work-with') }}"><span>Partnerships</span></a></li>
+               <!--<li ><a href='#'><span>Vacancies</span></a></li>-->
             </ul>
          </li>
-         <li><a href='#'><span>What We Do</span></a></li>
-         <li><a href='#'><span>Working Together</span></a></li>
-         <li><a href='#'><span>Contact Us</span></a></li>
-         <li><a href='#'><span>Donate</span></a></li>
-         <li class='last'><a href='#'><span>Contact Us: 01462 435835</span></a></li>
+         <li class='has-sub'><a href="{{ url('what-we-do') }}"><span>What We Do</span></a>
+         	<ul>
+         		<li><a href="{{ url('accommodation') }}"><span>Accommodation</span></a></li>
+                <li><a href="{{ url('who-we-work-with') }}"><span>Working Together</span></a></li>
+         	</ul>
+         </li>
+         <li><a href="{{ url('contact-us') }}"><span>Contact Us</span></a></li>
+         <li><a href='https://justgiving.com/donatebox/750244?u=http%3A%2F%2Fwww.northhertssanctuary.org.uk%2F&amp;d=false&amp;r=donatebox_buttonv1' target="_blank"><span>Donate</span></a></li>
+         <li><a href='#'><span>Contact Us: 01462 600425</span></a></li>
+         <li class='last'><a href='#' class='last'><span>Login</span></a></li>
       </ul>
     </div>
 </div>

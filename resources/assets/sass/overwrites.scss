@@ -68,6 +68,7 @@ html, body {
   text-align: left;
 }
 #cssmenu > ul > li > a {
+  width: auto;
   padding: 18px 25px 21px 25px;
   border-right: 1px solid rgba(80, 80, 80, 0.12);
   text-decoration: none;
@@ -329,6 +330,11 @@ html, body {
   }
 }
 
+  .last {
+    /*padding-left: 40px !important;*/
+    border-right: 0px !important;
+  }
+
   .title {
     font-size: 30px;
     padding-left: 25px;
@@ -336,19 +342,29 @@ html, body {
   }
 
   .head-right {
+    width: 100%;
     float:right;
   }
 
   .fb-img {
     margin-right:10px;
     float:right;
-    height:25px;
-    width:23px;
+    height:35px;
+    width:33px;
+    position: absolute; 
+    bottom: 0;
+    right: 0px;
+    padding-right: 10px;
+    padding-bottom: 10px;
   }
 
   .front-main-img {
     max-width:100%;
     max-height:100%;
+  }
+
+  .front-main-img img {
+    width: 100%;
   }
 
   .contain {
@@ -365,7 +381,7 @@ html, body {
   }
 
   .help-num-sec div {
-    background-color: #ffffff;
+    background-color: $white;
   }
 
   .main-menu-secs {
@@ -380,12 +396,21 @@ html, body {
     font-weight: bold;
   }
 
+  .within-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
   //Red section of front page
   .text-subhead-red {
     padding-top: 50px;
     color: $red-sec;
     background-color: $sections-color;
     font-weight: bold;
+    padding-bottom: 50px;
   }
 
   .main-menu-button-red {
@@ -406,12 +431,17 @@ html, body {
     transform: scale(1.2) perspective(1px);
   }
 
+  .main-menu-button-red:hover {
+    color: $font-normal-color;
+  }
+
   //Blue section of front page
   .text-subhead-blue {
     padding-top: 50px;
     color: $blue-sec;
     background-color: $sections-color;
     font-weight: bold;
+    padding-bottom: 50px;
   }
 
   .main-menu-button-blue {
@@ -432,12 +462,17 @@ html, body {
     transform: scale(1.2) perspective(1px);
   }
 
+  .main-menu-button-blue:hover {
+    color: $font-normal-color;
+  }
+
   //Green section of front page
   .text-subhead-green {
     padding-top: 50px;
     color: $green-sec;
     background-color: $sections-color;
     font-weight: bold;
+    padding-bottom: 50px;
   }
 
   .main-menu-button-green {
@@ -454,12 +489,17 @@ html, body {
     border-radius: 30px;
   }
 
+  .main-menu-button-green:hover {
+    color: $font-normal-color;
+  }
+
   .text-subhead-green:hover {
     transform: scale(1.2) perspective(1px);
   }
 
 //Yellow section of front page
   .text-subhead-yellow {
+    background-color: $white;
     padding-top: 50px;
     color: $yellow-sec;
     font-weight: bold;
@@ -482,8 +522,13 @@ html, body {
     transform: scale(1.2) perspective(1px);
   }
 
+  .main-menu-button-yellow:hover {
+    color: $font-normal-color;
+  }
+
   //Orange section of front page
   .text-subhead-orange {
+    background-color: $white;
     padding-top: 50px;
     color: $orange-sec;
     font-weight: bold;
@@ -507,8 +552,13 @@ html, body {
     transform: scale(1.2) perspective(1px);
   }
 
+  .main-menu-button-orange:hover {
+    color: $font-normal-color;
+  }
+
   //Dark blue section of front page
   .text-subhead-dark-blue {
+    background-color: $white;
     padding-top: 50px;
     color: $dark-blue-sec;
     font-weight: bold;
@@ -532,8 +582,13 @@ html, body {
     transform: scale(1.2) perspective(1px);
   }
 
+  .main-menu-button-dark-blue:hover {
+    color: $font-normal-color;
+  }
+
   //Purple section of front page
   .text-subhead-purple {
+    background-color: $white;
     padding-top: 50px;
     color: $purple-sec;
     font-weight: bold;
@@ -557,9 +612,29 @@ html, body {
     transform: scale(1.2) perspective(1px);
   }
 
+  .main-menu-button-purple:hover {
+    color: $font-normal-color;
+  }
+
   .text-normal {
     color: $font-normal-color;
     font-weight: normal;
+  }
+
+  .sub-heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .paper {
+    color: $font-normal-color;
+    background-color: $white;
+    padding: 50px 50px 50px 50px;
+    margin-bottom: 50px;
+  }
+
+  .team-img {
+    border-radius: 50%;
   }
 
   // Footer
@@ -568,6 +643,14 @@ html, body {
     color: $footer-font-color;
     height: 300px;
     padding: 25px;
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+  }
+
+  .footer-copy {
+    position: absolute; 
+    bottom: 0;
   }
 
   .footer-address {
