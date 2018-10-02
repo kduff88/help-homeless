@@ -27,7 +27,7 @@
               <div class="row">
                 <div class="col-md-8 offset-md-2">
                   <div class="front-main-img">
-                    <img class="contain" src="images/homeless-pic.jpg" alt="homeless man" />
+                    <img class="contain" src="{{ $homePageImage }}" alt="homeless man" />
                   </div>
                 </div>
                 <div class="col-md-8 offset-md-2 help-num-sec">

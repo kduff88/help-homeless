@@ -12,7 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $data['homePageImage'] = Cache::rememberForever('homePageImage', function() {
+        return 'images/homeless-pic.jpg';
+    });
+    
+    return view('welcome', $data);
 });
 
 Route::get('/about-us', function () {
@@ -58,3 +62,6 @@ Route::get('/volunteer', function () {
 Route::get('/contact-us', function () {
     return view('contact-us');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
