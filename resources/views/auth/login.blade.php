@@ -1,10 +1,23 @@
-@extends('layouts.app')
+<!doctype html>
+<html lang="{{ app()->getLocale() }}">
+    <head>
+        @include('includes.head')
+    </head>
+    <body class="bg-body">
+      <div id="app">
+        <div class="flex-center position-ref full-height">
+            <header class="row">
+ 
+               @include('includes.header')
+         
+           </header>
 
-@section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
+            <div class="content">
+              <div class="row">
+                <div class="col-md-8 offset-md-2">
+                 <div class="sub-heading"><h2><p>{{ __('Login') }}</p></h2></div>
+                 <div class="paper">
+                  <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
 
                 <div class="card-body">
@@ -63,7 +76,18 @@
                     </form>
                 </div>
             </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+
+            <footer class="row">
+ 
+               @include('includes.footer')
+         
+           </footer>
         </div>
-    </div>
-</div>
-@endsection
+      </div>
+        <script src="{{asset('js/app.js')}}" type="text/javascript"></script>
+    </body>
+</html>

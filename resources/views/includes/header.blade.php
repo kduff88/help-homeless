@@ -40,7 +40,16 @@
          <li><a href="{{ url('contact-us') }}"><span>Contact Us</span></a></li>
          <li><a href='https://justgiving.com/donatebox/750244?u=http%3A%2F%2Fwww.northhertssanctuary.org.uk%2F&amp;d=false&amp;r=donatebox_buttonv1' target="_blank"><span>Donate</span></a></li>
          <li><a href='#'><span>Contact Us: 01462 600425</span></a></li>
-         <li class='last'><a href='#' class='last'><span>Login</span></a></li>
+         @if (Route::has('login'))
+           @auth
+                <li class='last'><a href="{{ route('logout') }}" class='last' onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><span>{{ __('Logout') }}</span></a></li>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+            @else
+                <li class='last'><a href="{{ route('login') }}" class='last'><span>Login</span></a></li>
+            @endauth
+          @endif         
       </ul>
     </div>
 </div>

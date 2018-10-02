@@ -62,6 +62,7 @@ Route::get('/volunteer', function () {
 Route::get('/contact-us', function () {
     return view('contact-us');
 });
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
