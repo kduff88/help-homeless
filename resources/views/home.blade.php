@@ -21,7 +21,7 @@
                     <p>
                         Please use this admin dashboard to edit the relevant web pages:
                     </p>
-                    &#98300; Edit the History Page <a href='#'>here.</a><br />
+                    &#98300; To register a new web user click <a href="{{ route('register') }}">{{ __('Register') }}</a><br />
                     &#98300; Edit the News Page <a href='#'>here.</a><br />
                     &#98300; Edit the Voluenteer Page <a href='#'>here.</a><br />
                     &#98300; Edit the Home Page <a href='#'>here.</a><br />
