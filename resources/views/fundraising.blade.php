@@ -20,7 +20,7 @@
                   <h4>Donating Money & Fundraising:</h4>
                   <br />
                   <p>
-                    This charity relies on fund-raising and donations to enable us to provide the extra facilities and services that our residents deserve.<br />
+                    This charity relies on fundraising and donations to enable us to provide the extra facilities and services that our residents deserve.<br />
 
                     Monetary donations are greatly welcome. They can be made through the <a href="https://www.justgiving.com/northherts-sanctuary" target="_blank">Just Giving</a> or <a href="http://uk.virginmoneygiving.com/charity-web/charity/finalCharityHomepage.action?charityId=1003936" target="_blank">Virgin Money Giving </a> where you can make a one off donation, set up a standing order or organise a fundraiser.
                   </p>

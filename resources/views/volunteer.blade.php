@@ -23,7 +23,7 @@
                     We are always grateful for any time volunteers can provide to help support our service users. We are usually in need of people to help with:  
                   </p>
                   <p>
-                    &#9830; Fund Raising Activities<br />
+                    &#9830; Fundraising Activities<br />
                     &#9830; Publicity / PR<br />
                     &#9830; DIY – indoor & outdoor<br />
                     &#9830; Transportation<br />

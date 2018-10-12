@@ -1,6 +1,7 @@
  <div class=" logo col-md-8 offset-md-2">
     <a href="{{ url('/') }}"><img src="images/Hand-Logo-Green-trans.png" alt="help the herts homeless" /></a>
-    <a href="https://www.facebook.com/nhsanctuary/" target="_blank"><img class='fb-img' src='images/upFb.png' alt='Facebook' /></a>
+    <a href="https://www.instagram.com/helpinghertshomeless/" target="_blank"><img class='insta-img' src='images/insta.png' alt='Instagram' /></a>
+    <a href="https://www.facebook.com/helpinghertshomeless/" target="_blank"><img class='fb-img' src='images/upFb.png' alt='Facebook' /></a>
 </div>
 <div class="col-md-8 offset-md-2">
   	<div id='cssmenu'>
