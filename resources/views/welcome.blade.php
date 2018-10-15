@@ -37,7 +37,7 @@
                       <p><a href="{{ url('donating') }}" class="main-menu-button-blue">Find Out More</a></p>
                     </div>
                     <div class="col-md-4 text-subhead-green">
-                      <span class="fas fa-globe-africa"></span><p><h4>Get Involved</h4></p></h4>
+                      <span class="fas fa-globe-africa"></span><p><h4>Volunteer</h4></p></h4>
                       <div class="text-normal"><p>Get involved with us here...</p></div>
                       <p><a href="#" class="main-menu-button-green">Find Out More</a></p>
                     </div>
@@ -45,22 +45,17 @@
                 </div>
                 <div class="col-md-8 offset-md-2 text-centre">
                   <div class="within-row">
-                    <div class="col-md-3 text-subhead-yellow">
-                      <span class="fas fa-users"></span><p><h4>Volunteer & Vacancies</h4></p>
+                    <div class="col-md-4 text-subhead-yellow">
+                      <span class="fas fa-users"></span><p><h4>Vacancies</h4></p>
                       <div class="text-normal"><p>Volunteer with us here...</p></div>
                       <p><a href="{{ url('volunteer') }}" class="main-menu-button-yellow">Find Out More</a></p>
                     </div>
-                    <div class="col-md-3 text-subhead-orange">
+                    <div class="col-md-4 text-subhead-orange">
                       <span class="fas fa-donate"></span><p><h4>Fundrasing</h4></p>
                       <div class="text-normal"><p>Would you like to help fundrase?</p></div>
                       <p><a href="{{ url('fundraising') }}" class="main-menu-button-orange">Find Out More</a></p>
                     </div>
-                    <div class="col-md-3 text-subhead-dark-blue">
-                      <span class="fas fa-home"></span><p><h4>Accomodation</h4></p></h4>
-                      <div class="text-normal"><p>Check out our accomodation here...</p></div>
-                      <p><a href="{{ url('accommodation') }}" class="main-menu-button-dark-blue">Find Out More</a></p>
-                    </div>
-                    <div class="col-md-3 text-subhead-purple">
+                    <div class="col-md-4 text-subhead-purple">
                       <span class="fas fa-hands-helping"></span><p><h4>Partnerships</h4></p></h4>
                       <div class="text-normal"><p>To see how wonderful partners here...</p></div>
                       <p><a href="{{ url('who-we-work-with') }}" class="main-menu-button-purple">Find Out More</a></p>

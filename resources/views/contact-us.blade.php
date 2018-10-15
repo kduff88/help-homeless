@@ -20,16 +20,16 @@
                   <h4>Address & Phone Number:</h4>
                   <br />
                   <p>
-                    &#9830; The Treasurer <br />
-                    &#9830; Care of HW Associates<br />
-                    &#9830; Portmill House,<br />
-                    &#9830; Portmill Lane,<br />
-                    &#9830; Hitchin,<br />
-                    &#9830; Hertfordshire,<br />
-                    &#9830; SG5 1DJ<br />
+                    The Treasurer <br />
+                    Helping Herts Homeless <br />
+                    Care of HW Associates<br />
+                    Portmill Lane,<br />
+                    Hitchin,<br />
+                    Hertfordshire,<br />
+                    SG5 1DJ<br />
                   </p>
                   <p>
-                    &#9830; Tele No: 01462 435835<br />
+                    &#9830; Tele No: 01462 600425<br />
                   </p>
                   <p>
                   <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2458.908473444802!2d-0.2744682485324525!3d51.95386047961146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487633edb6719447%3A0xf8669d4df54db09a!2sNorth+Herts+Sanctuary%2C+25+Nightingale+Rd%2C+Hitchin%2C+Hertfordshire+SG5+1QU!5e0!3m2!1sen!2suk!4v1456737402536" frameborder="0" style="border: 0px; pointer-events: none;" allowfullscreen=""></iframe>
