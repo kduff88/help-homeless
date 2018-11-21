@@ -63,6 +63,8 @@ Route::get('/contact-us', function () {
     return view('contact-us');
 });
 
+Route::get('news', 'newsController');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

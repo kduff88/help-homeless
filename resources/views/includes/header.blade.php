@@ -26,10 +26,10 @@
                      <li class='last'><a href='#'><span>Other Charities</span></a></li>
                   </ul>-->
                </li>
-               <li ><a href="{{ url('donating') }}"><span>Donate</span></a></li>
+               <li ><a href="#donationModal" data-toggle="modal" data-target="#donationModal"><span>Donate</span></a></li>
                <li ><a href="{{ url('fundraising') }}"><span>Fundraising</span></a></li>
                <li ><a href="{{ url('who-we-work-with') }}"><span>Partnerships</span></a></li>
-               <!--<li ><a href='#'><span>Vacancies</span></a></li>-->
+               <li ><a href="{{ url('news') }}"><span>News (Vacancies)</span></a></li>
             </ul>
          </li>
          <li class='has-sub'><a href="{{ url('what-we-do') }}"><span>What We Do</span></a>
