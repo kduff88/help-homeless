@@ -26,7 +26,7 @@
                      <li class='last'><a href='#'><span>Other Charities</span></a></li>
                   </ul>-->
                </li>
-               <li ><a href="#donationModal" data-toggle="modal" data-target="#donationModal"><span>Donate</span></a></li>
+               <li ><a href="{{ url('donating') }}"><span>Donate</span></a></li>
                <li ><a href="{{ url('fundraising') }}"><span>Fundraising</span></a></li>
                <li ><a href="{{ url('who-we-work-with') }}"><span>Partnerships</span></a></li>
                <li ><a href="{{ url('news') }}"><span>News (Vacancies)</span></a></li>
@@ -39,7 +39,7 @@
          	</ul>
          </li>
          <li><a href="{{ url('contact-us') }}"><span>Contact Us</span></a></li>
-         <li><a href='https://justgiving.com/donatebox/750244?u=http%3A%2F%2Fwww.northhertssanctuary.org.uk%2F&amp;d=false&amp;r=donatebox_buttonv1' target="_blank"><span>Donate</span></a></li>
+         <li><a href="#donationModal" data-toggle="modal" data-target="#donationModal"><span>Donate</span></a></li>
          <li><a href='#'><span>Contact Us: 01462 600425</span></a></li>
          @if (Route::has('login'))
            @auth

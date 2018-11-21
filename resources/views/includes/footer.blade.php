@@ -28,7 +28,7 @@
       <h4 class="modal-title">Donations</h4>
     </div>
     <div class="modal-body">
-      <p><iframe src="{{ url('donations') }}"></iframe></p>
+      <p><iframe src='https://justgiving.com/donatebox/750244?u=http%3A%2F%2Fwww.northhertssanctuary.org.uk%2F&amp;d=false&amp;r=donatebox_buttonv1' width="300px"></iframe></p>
     </div>
     <div class="modal-footer">
       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
